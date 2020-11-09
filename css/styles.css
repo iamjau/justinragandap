@@ -184,17 +184,83 @@ html {
     text-align: center;
 }
 
+/****** Services1 Section *******/
+
 .service-1 {
     grid-area: service-1;
     padding: 1rem;
+    align-items: center;
+    position: relative;
+    margin-top: 5rem;
 }
+
+.service-1 p {
+    text-align: center;
+    position: absolute;
+}
+
+.service-1 h2 {
+    margin-top: 3rem;  
+}
+
+.service-1 i {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 1rem;
+}
+
+/****** Services2 Section *******/
 
 .service-2 {
     grid-area: service-2;
     padding: 1rem;
+    align-items: center;
+    position: relative;
+    margin-top: 5rem;
 }
+
+.service-2 p {
+    text-align: center;
+    position: absolute;
+}
+
+.service-2 h2 {
+    margin-top: 3rem;  
+}
+
+.service-2 i {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 1rem;
+}
+
+/****** Services3 Section *******/
 
 .service-3 {
     grid-area: service-3;
     padding: 1rem;
+    align-items: center;
+    position: relative;
+    margin-top: 5rem;
+}
+
+.service-3 p {
+    text-align: center;
+    position: absolute;
+}
+
+.service-3 h2 {
+    margin-top: 3rem;  
+}
+
+.service-3 i {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 1rem;
 }
