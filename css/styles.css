@@ -161,10 +161,10 @@ html {
     background-size: cover;
     background-position: center center;
     display: grid;
-    grid-template-columns: 33.33%, 33.33%, 33.33%;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat (10%, auto-fit);
-    grid-template-areas: "title title title";
-    grid-template-areas: "service-1 service-2 service-3";
+    grid-template-areas: "title title title"
+    "service-1 service-2 service-3";
     padding: 1rem 8rem;
 }
 
@@ -186,12 +186,15 @@ html {
 
 .service-1 {
     grid-area: service-1;
+    padding: 1rem;
 }
 
 .service-2 {
     grid-area: service-2;
+    padding: 1rem;
 }
 
 .service-3 {
     grid-area: service-3;
+    padding: 1rem;
 }
